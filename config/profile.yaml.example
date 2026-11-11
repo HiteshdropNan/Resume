@@ -1,0 +1,135 @@
+candidate:
+  name: "Candidate Name"
+  first_name: "First"
+  last_name: "Last"
+  email: "candidate@example.com"
+  phone: "1234567890"
+  phone_country_code: "+1"
+  location: "New York, NY"
+  city: "New York"
+  country: "United States"
+  linkedin: "https://www.linkedin.com/in/your-profile"
+  resume_path: "resumes/master_resume.pdf"
+  github: "https://github.com/your-username"
+  portfolio: ""
+  interests: ["Chess", "Poker"]
+
+education:
+  highest_degree: "Master's Degree (In Progress)"
+  institution: "WorldQuant University"
+  major: "Financial Engineering"
+  graduation_year: 2027
+  degrees:
+    - institution: "WorldQuant University"
+      degree: "MSc in Financial Engineering"
+      graduation_date: "January 2027"
+    - institution: "Fitch Learning"
+      degree: "Certificate in Quantitative Finance (CQF)"
+      graduation_date: "November 2024"
+    - institution: "QuantInsti"
+      degree: "Executive Program in Algorithmic Trading (EPAT)"
+      graduation_date: "March 2023"
+    - institution: "University Name"
+      degree: "Bachelors in Business Administration (BBA)"
+      graduation_date: "April 2016"
+
+current_employment:
+  title: "Quantitative Research Consultant"
+  company: "WorldQuant Brain"
+  start_date: "June 2025"
+  end_date: "Present"
+  status: "Part-time"
+  location: "Remote"
+  highlights:
+    - "Developed and optimized 400+ statistical arbitrage alphas on Brain platform, targeting price prediction, fast execution, and profit-maximizing strategies."
+    - "Conducted research, back testing, and strategy validation to generate high-performing alphas and super alphas."
+    - "Leveraged diverse datasets including fundamental, price, volume, momentum, analyst, options, and sentiment data to enhance trading performance and profitability."
+
+past_employment:
+  - title: "Co-Founder & CEO"
+    company: "Commercial Venture"
+    start_date: "June 2017"
+    end_date: "April 2025"
+    location: "Location"
+    highlights:
+      - "Managed end-to-end business operations including procurement, supply chain, sales, and client relationships."
+      - "Oversaw distribution network and logistics to deliver products across multiple retail channels efficiently."
+      - "Implemented financial planning, budgeting, and credit risk assessments to support sustainable growth and profitability."
+
+technical_skills:
+  languages: ["Python", "PostgreSQL", "C++"]
+  libraries_and_tools:
+    - "NumPy"
+    - "pandas"
+    - "scikit-learn"
+    - "PyTorch"
+    - "Backtrader"
+    - "Matplotlib"
+    - "Plotly"
+    - "Prometheus"
+    - "Grafana"
+    - "Redis"
+    - "Docker"
+    - "MLflow"
+    - "TA-Lib"
+    - "Interactive Brokers API"
+  modern_cpp:
+    - "templates"
+    - "constexpr"
+    - "low-latency multithreading (std::atomic, std::thread)"
+    - "memory optimized design"
+    - "async networking (Boost.Asio)"
+    - "performance profiling/benchmarking (perf)"
+  quantitative_methods:
+    - "Market microstructure driven alpha research (order book, liquidity, imbalance, decay)"
+    - "Execution-aware high frequency statistical and machine-learning models"
+    - "Statistical arbitrage"
+    - "Time-series forecasting"
+    - "Monte Carlo simulations"
+    - "Risk management (VaR, Expected Shortfall)"
+    - "Turnover control & signal stability"
+
+projects:
+  - name: "Monte Carlo Simulations for VaR & Expected Shortfall"
+    description: "Engineered Monte Carlo simulation engines in Python to model correlated asset returns, compute Value-at-Risk (VaR) and Expected Shortfall (CVaR) under fat-tailed distributions, and quantify tail-risk exposure for multi-asset portfolios."
+    tags: ["Risk Management", "Monte Carlo", "VaR", "Python", "Derivatives"]
+  - name: "Deep Learning for Financial Time Series (CQF Program)"
+    description: "Implemented deep neural network architectures (PyTorch) to forecast financial asset returns; engineered non-linear features from price-volume sequences to outperform traditional ARIMA/GARCH statistical baselines."
+    tags: ["Machine Learning", "Deep Learning", "Time Series", "PyTorch", "Alpha Research"]
+  - name: "Algorithmic Trading Strategies (CQF Program)"
+    description: "Designed and backtested execution-aware mean reversion and trend-following strategies using Python and Backtrader; modeled realistic transaction costs, slippage, and stop-loss rules to achieve consistent simulated Sharpe metrics."
+    tags: ["Algorithmic Trading", "Backtesting", "Mean Reversion", "Trend Following", "Python"]
+
+trading_skills:
+  - "Designed, backtested, and deployed systematic trading strategies in Python with execution-aware logic and robust risk controls."
+  - "Integrated strategies with broker APIs for order placement, monitoring, and real-time position management."
+  - "Applied data processing and optimization techniques to improve signal stability, turnover control, and execution efficiency."
+  - "Operated strategies in live trading environments, monitoring performance, latency, and risk metrics."
+
+target_preferences:
+  roles:
+    - "Quantitative Researcher"
+    - "Quantitative Trader"
+    - "Quant Developer"
+    - "MFT Trader"
+    - "Algorithmic Trader"
+    - "Financial Engineer"
+    - "Systematic Trader"
+  workplace_type: "Remote"
+  minimum_match_score: 70
+
+screening_defaults:
+  years_experience_python: 4
+  years_experience_cpp: 2
+  years_experience_quant: 2
+  years_experience_trading: 2
+  years_experience_sql: 3
+  notice_period_days: 15
+  require_visa_sponsorship: false
+  authorized_to_work_in_india: true
+  willing_to_work_remotely: true
+  willing_to_relocate: true
+  expected_compensation_inr: "Negotiable / Competitive"
+  gender: "Male"
+  veteran_status: "No"
+  disability_status: "No"

@@ -1,0 +1,16 @@
+Position: Quantitative Analyst | $175/hr Remote
+Company: Remotefolio
+Location: Remote (India / Worldwide)
+Rate: $175/hour
+Commitment: Part-time, flexible, task-based
+
+Role Responsibilities:
+- Evaluate AI-generated quantitative analysis for mathematical rigor.
+- Create expert demonstrations of pricing, portfolio and risk modeling workflows.
+- Rank and label model responses against quantitative best practices.
+
+Requirements:
+- Advanced degree in mathematics, statistics, physics, CS or quantitative finance, or equivalent experience.
+- 2+ years in quantitative research, trading or risk modeling.
+- Fluency with Python, R or C++ for quantitative work.
+- In-depth knowledge of derivatives pricing, portfolio optimization, statistical arbitrage, and risk management (VaR, Expected Shortfall).

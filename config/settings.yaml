@@ -1,0 +1,16 @@
+agent:
+  headless: false               # Keep false so the user can visually monitor the automation
+  review_mode: true             # Pause before final submit button click for human confirmation
+  human_delay_min: 1.2          # Natural random typing and navigation delays (in seconds)
+  human_delay_max: 2.8
+  max_applications_per_day: 25
+  auto_download_pdf: true
+  user_data_dir: ".browser_session" # Preserves login sessions and cookies across runs
+
+llm:
+  provider: "gemini"            # gemini or openai
+  model: "gemini-2.5-flash"
+  temperature: 0.2
+
+database:
+  db_path: "data/applications.db"

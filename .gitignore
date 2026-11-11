@@ -1,0 +1,39 @@
+# Environments and Secrets
+.env
+.env.*
+!.env.example
+
+# Candidate Profile (Keep personal details local)
+config/profile.yaml
+!config/profile.yaml.example
+
+# Resumes and Personal PDFs (Keep personal CVs and tailored applications local)
+*.pdf
+resumes/tailored/
+resumes/master_resume_1page.*
+!resumes/master_resume_template.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+.venv/
+venv/
+
+# Database
+data/*.db
+data/applications.db
+
+# Large binaries & Coursework archives
+CQF/
+zip/
+*.zip
+
+# OS metadata
+.DS_Store
+Thumbs.db
