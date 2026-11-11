@@ -1,0 +1,7 @@
+,p-value,reverse p-value
+dVIX -> dTED,0.003,0.0
+dTED -> dCCB,0.152,0.762
+dTED -> dAR,0.896,0.963
+dVIX -> dAR,0.017,0.429
+dAR -> dHY,0.012,0.02
+dVIX -> dHY,0.0,0.012

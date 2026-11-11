@@ -3,15 +3,16 @@
 .env.*
 !.env.example
 
-# Candidate Profile (Keep personal details local)
-config/profile.yaml
-!config/profile.yaml.example
+# Tools & Personal Customizer Secrets
+tools/resume_customizer/.env
+tools/resume_customizer/config/profile.yaml
+!tools/resume_customizer/config/profile.yaml.example
+tools/resume_customizer/resumes/tailored/
+tools/resume_customizer/resumes/master_resume_1page.*
+tools/resume_customizer/data/*.db
 
-# Resumes and Personal PDFs (Keep personal CVs and tailored applications local)
+# Resumes and Personal PDFs (Keep local)
 *.pdf
-resumes/tailored/
-resumes/master_resume_1page.*
-!resumes/master_resume_template.md
 
 # Python
 __pycache__/
@@ -20,14 +21,11 @@ __pycache__/
 .pytest_cache/
 .coverage
 htmlcov/
+.ipynb_checkpoints/
 
 # Virtual Environment
 .venv/
 venv/
-
-# Database
-data/*.db
-data/applications.db
 
 # Large binaries & Coursework archives
 CQF/

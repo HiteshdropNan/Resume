@@ -1,0 +1,4 @@
+,Apex,SRI alert,SRI lead,SRI on at window start,VaR alert,VaR lead,First VaR breach,Breach lead,SRI lead minus VaR lead
+Quant crisis 2007,2007-08-09,2007-07-24,12,False,2007-08-14,-3,2007-06-07,44,15
+GFC 2008,2008-10-10,2008-10-06,4,False,2008-09-29,9,2008-06-06,88,-5
+COVID 2020,2020-03-16,2020-02-25,14,False,2020-03-09,5,2020-01-27,34,9

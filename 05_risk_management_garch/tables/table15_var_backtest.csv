@@ -1,0 +1,13 @@
+,,days,breaches,breach rate %,Kupiec LR,Kupiec p,Christoffersen LR,Christoffersen p
+Gaussian,Full sample,4029,113,2.805,88.984,0.0,12.871,0.0
+Gaussian,Quant crisis 2007,128,11,8.594,28.648,0.0,0.003,0.958
+Gaussian,GFC 2008,149,15,10.067,43.535,0.0,0.174,0.677
+Gaussian,COVID 2020,125,14,11.2,43.507,0.0,0.133,0.715
+Historical,Full sample,4029,68,1.688,15.956,0.0,14.671,0.0
+Historical,Quant crisis 2007,128,7,5.469,12.609,0.0,0.797,0.372
+Historical,GFC 2008,149,11,7.383,25.587,0.0,0.045,0.832
+Historical,COVID 2020,125,8,6.4,16.576,0.0,3.102,0.078
+Stressed,Full sample,4029,5,0.124,50.025,0.0,0.012,0.911
+Stressed,Quant crisis 2007,128,0,0.0,2.573,0.109,-0.0,1.0
+Stressed,GFC 2008,149,2,1.342,0.159,0.69,0.055,0.815
+Stressed,COVID 2020,125,3,2.4,1.778,0.182,0.149,0.7

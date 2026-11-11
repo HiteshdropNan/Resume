@@ -1,0 +1,9 @@
+Improvement,Test,Estimate,p-value,Verdict
+1 Wrong-way risk,"Granger F, TED -> HY",,0.0,supported
+2 Volatility-funding feedback,"Granger F, VIX -> TED (reverse p = 0.000)",,0.002,supported
+3 Correlation concentration,AR in high-VIX days minus other days (pp),8.343,0.0,supported
+4 Tail asymmetry,"AR_lag effect on HY (bp per pp) at the 99th pct (median -0.02, p = 0.014)",0.761,0.0,supported
+5 Non-linear amplification,"log condition number, crisis windows minus rest",0.282,0.135,not supported
+6 Earlier warning,crises where the SRI is earlier than the VaR level (of 3),2.0,,mixed
+7 Fewer false alarms,"calm days: SRI-only alerts 225, VaR-only alerts 322",-97.0,0.0,supported
+8 Flags VaR failures,"breach rate after an SRI alert 10.1%, otherwise 2.2%",0.08,0.0,supported
