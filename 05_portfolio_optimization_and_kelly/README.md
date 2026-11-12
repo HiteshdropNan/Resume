@@ -68,8 +68,19 @@ HRP (López de Prado) replaces matrix inversion altogether by combining graph th
 ```text
 05_portfolio_optimization_and_kelly/
 ├── README.md                                 # Complete theoretical & empirical documentation
+├── kelly_rmt_optimizer.py                    # Standalone Kelly sizing, RMT denoising & HRP CLI engine
 ├── mean_variance_optimization.ipynb          # Step-by-step Markowitz MVO & Efficient Frontier
 └── kelly_portfolio_rmt_denoising_hrp.ipynb   # Kelly portfolio, RMT Denoising, Detoning & HRP
+```
+
+---
+
+## Verification & Execution
+
+To run the standalone Kelly criterion, RMT denoising, and HRP optimization engine from the terminal:
+
+```bash
+uv run python 05_portfolio_optimization_and_kelly/kelly_rmt_optimizer.py
 ```
 
 ---
