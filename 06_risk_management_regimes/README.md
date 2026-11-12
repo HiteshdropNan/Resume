@@ -60,6 +60,7 @@ Constructs Bayesian Networks capturing conditional dependency structures among m
 ```text
 06_risk_management_regimes/
 ├── README.md                            # Comprehensive econometric documentation
+├── regime_switching_engine.py           # Standalone Markov regime-switching & tail risk CLI engine
 ├── crude_oil_graphical_models_risk.ipynb # Bayesian networks & DCC-GARCH modeling (Crude Oil)
 ├── natural_gas_regime_detection.ipynb    # Markov regime-switching model on UNG Natural Gas
 ├── figs/                                # DCC correlation plots, cascade graphs & regime charts
@@ -74,6 +75,16 @@ Constructs Bayesian Networks capturing conditional dependency structures among m
 │   └── fig09_cascade.html
 └── tables/                              # GARCH outputs, Granger tests, and FEVD matrices
     ├── table00_data_audit.csv through table17_improvements.csv
+```
+
+---
+
+## Verification & Execution
+
+To run the standalone Markov regime-switching and tail risk engine from the terminal:
+
+```bash
+uv run python 06_risk_management_regimes/regime_switching_engine.py
 ```
 
 ---
