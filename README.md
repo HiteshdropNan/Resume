@@ -9,22 +9,24 @@
 
 Welcome to my quantitative finance and financial engineering research portfolio. This repository compiles graduate-level research projects, algorithmic trading engines, stochastic calculus models, deep learning PDE solvers, credit risk frameworks, and portfolio optimization systems developed during my **MSc in Financial Engineering at WorldQuant University**, the **Certificate in Quantitative Finance (CQF)** at Fitch Learning, and ongoing research as a **Quantitative Research Consultant at WorldQuant Brain** (where I have developed and deployed 400+ statistical arbitrage alphas).
 
+Every pillar in this portfolio is structured in **dual-format**: containing both **production-grade standalone Python engines (`.py`)** for headless CLI execution and **interactive Jupyter notebooks (`.ipynb`)** with complete theoretical derivations and rich visual analytics.
+
 ---
 
 ## 🎯 Flagship Quantitative Projects Matrix
 
-| # | Pillar | Domain | Key Mathematical Models & Frameworks | Primary Tech Stack | Status / Artifacts |
+| # | Pillar | Domain | Key Mathematical Models & Frameworks | Primary Tech Stack | Artifacts (CLI Engine & Notebook) |
 | :-: | :--- | :--- | :--- | :--- | :--- |
-| **01** | **[Algorithmic Trading & Genetic Algorithms](./01_algorithmic_trading_cqf)** | Systematic Trading & Alpha Generation | Cointegration, Statistical Arbitrage, Pairs Trading, Evolutionary Parameter Optimization (`deap`) | Python, `deap`, Alpaca API, `statsmodels` | [Strategy Code & Engine](./01_algorithmic_trading_cqf) |
-| **02** | **[Stochastic Volatility & Derivatives](./02_stochastic_volatility_derivatives)** | Derivatives & Stochastic Calculus | Heston (1993) SDEs, Fourier Inversion, Smile Calibration, Binomial/Trinomial Trees, Dynamic Delta Hedging | Python, `scipy`, `numpy`, Jupyter | [Interactive Notebooks](./02_stochastic_volatility_derivatives) |
-| **03** | **[Deep Learning for Asset Allocation](./03_deep_learning_asset_allocation)** | Quant ML & Time Series | Recurrent Neural Networks (LSTM), Sequence-to-Sequence Return Forecasting, Dynamic SAA Optimization | PyTorch, Keras, `scikit-learn` | [LSTM Allocation Notebook](./03_deep_learning_asset_allocation) |
-| **04** | **[Machine Learning & Factor Models](./04_machine_learning_factor_models)** | Statistical Learning & Factor Investing | LASSO ($L_1$) Sparse Feature Selection, PCA Eigenportfolios, k-Means Risk Clustering | Python, `scikit-learn`, `pandas`, `numpy` | [Factor Analysis Notebooks](./04_machine_learning_factor_models) |
-| **05** | **[Portfolio Optimization & Kelly Sizing](./05_portfolio_optimization_and_kelly)** | Asset Management & Allocation | Markowitz MVO, Optimal Kelly Criterion, Random Matrix Theory (Marchenko-Pastur Denoising), HRP, Detoning | Python, `scipy.optimize`, `numpy`, RMT | [Kelly & MVO Notebooks](./05_portfolio_optimization_and_kelly) |
-| **06** | **[Risk Management & Regime Shifts](./06_risk_management_regimes)** | Quantitative Risk & Econometrics | DCC-GARCH Volatility, Value-at-Risk (VaR), Expected Shortfall, Bayesian DAGs, Natural Gas Markov Switching | Python, `arch`, `statsmodels`, SciPy | [Risk & Regime Notebooks](./06_risk_management_regimes) |
-| **07** | **[Deep PDE & FBSDE Pricing](./07_deep_pde_fbsde_derivative_pricing)** | Neural SDEs & Deep PDE Solvers | Forward-Backward SDEs (FBSDE), Deep BSDE Method (E, Han & Jentzen), High-Dimensional Black-Scholes PDE | PyTorch, Automatic Differentiation, NumPy | [FBSDE Engine & Notebook](./07_deep_pde_fbsde_derivative_pricing) |
-| **08** | **[Credit Risk & CDS Bootstrapping](./08_credit_risk_cds_bootstrapping)** | Credit Risk & Structured Derivatives | Piecewise Hazard Rate $\lambda(t)$ Bootstrapping, Peña Model, CDS Mark-to-Market, Gaussian Copula Basket Defaults | Python, `scipy.optimize`, NumPy | [Bootstrapping Engine & Notebook](./08_credit_risk_cds_bootstrapping) |
-| **09** | **[VECM & Johansen Cointegration](./09_vecm_cointegration_trading)** | Econometrics & Statistical Arbitrage | Johansen Maximum Likelihood Rank Test (Trace & Max-Eigenvalue), VECM $\boldsymbol{\Pi} = \boldsymbol{\alpha}\boldsymbol{\beta}^\top$, Arbitrage Backtest | Python, `statsmodels`, Pandas, NumPy | [VECM Engine & Notebook](./09_vecm_cointegration_trading) |
-| **10** | **[Black-Litterman Bayesian Allocation](./10_black_litterman_portfolio)** | Bayesian Asset Allocation & Portfolio Theory | Reverse Optimization Equilibrium Returns $\boldsymbol{\Pi} = \lambda \boldsymbol{\Sigma} \mathbf{w}_{\text{mkt}}$, Idzorek Confidence Scaling, Portfolio Tilts | Python, `scipy.optimize`, Pandas, NumPy | [Black-Litterman Engine & Notebook](./10_black_litterman_portfolio) |
+| **01** | **[Algorithmic Trading & Genetic Algorithms](./01_algorithmic_trading_cqf)** | Systematic Trading & Alpha Generation | Cointegration, Statistical Arbitrage, Pairs Trading, Evolutionary Parameter Optimization (`deap`) | Python, `deap`, Alpaca API, `statsmodels` | [Engine & Notebook](./01_algorithmic_trading_cqf) |
+| **02** | **[Stochastic Volatility & Derivatives](./02_stochastic_volatility_derivatives)** | Derivatives & Stochastic Calculus | Heston (1993) SDEs, Fourier Inversion, Smile Calibration, Binomial/Trinomial Trees, Dynamic Delta Hedging | Python, `scipy`, `numpy`, Jupyter | [Engine & Notebook](./02_stochastic_volatility_derivatives) |
+| **03** | **[Deep Learning for Asset Allocation](./03_deep_learning_asset_allocation)** | Quant ML & Time Series | Recurrent Neural Networks (LSTM), Sequence-to-Sequence Return Forecasting, Dynamic SAA Optimization | PyTorch, Keras, `scikit-learn` | [Engine & Notebook](./03_deep_learning_asset_allocation) |
+| **04** | **[Machine Learning & Factor Models](./04_machine_learning_factor_models)** | Statistical Learning & Factor Investing | LASSO ($L_1$) Sparse Feature Selection, PCA Eigenportfolios, k-Means Risk Clustering | Python, `scikit-learn`, `pandas`, `numpy` | [Engine & Notebook](./04_machine_learning_factor_models) |
+| **05** | **[Portfolio Optimization & Kelly Sizing](./05_portfolio_optimization_and_kelly)** | Asset Management & Allocation | Markowitz MVO, Optimal Kelly Criterion, Random Matrix Theory (Marchenko-Pastur Denoising), HRP, Detoning | Python, `scipy.optimize`, `numpy`, RMT | [Engine & Notebook](./05_portfolio_optimization_and_kelly) |
+| **06** | **[Risk Management & Regime Shifts](./06_risk_management_regimes)** | Quantitative Risk & Econometrics | DCC-GARCH Volatility, Value-at-Risk (VaR), Expected Shortfall, Bayesian DAGs, Natural Gas Markov Switching | Python, `arch`, `statsmodels`, SciPy | [Engine & Notebook](./06_risk_management_regimes) |
+| **07** | **[Deep PDE & FBSDE Pricing](./07_deep_pde_fbsde_derivative_pricing)** | Neural SDEs & Deep PDE Solvers | Forward-Backward SDEs (FBSDE), Deep BSDE Method (E, Han & Jentzen), High-Dimensional Black-Scholes PDE | PyTorch, Automatic Differentiation, NumPy | [Engine & Notebook](./07_deep_pde_fbsde_derivative_pricing) |
+| **08** | **[Credit Risk & CDS Bootstrapping](./08_credit_risk_cds_bootstrapping)** | Credit Risk & Structured Derivatives | Piecewise Hazard Rate $\lambda(t)$ Bootstrapping, Peña Model, CDS Mark-to-Market, Gaussian Copula Basket Defaults | Python, `scipy.optimize`, NumPy | [Engine & Notebook](./08_credit_risk_cds_bootstrapping) |
+| **09** | **[VECM & Johansen Cointegration](./09_vecm_cointegration_trading)** | Econometrics & Statistical Arbitrage | Johansen Maximum Likelihood Rank Test (Trace & Max-Eigenvalue), VECM $\boldsymbol{\Pi} = \boldsymbol{\alpha}\boldsymbol{\beta}^\top$, Arbitrage Backtest | Python, `statsmodels`, Pandas, NumPy | [Engine & Notebook](./09_vecm_cointegration_trading) |
+| **10** | **[Black-Litterman Bayesian Allocation](./10_black_litterman_portfolio)** | Bayesian Asset Allocation & Portfolio Theory | Reverse Optimization Equilibrium Returns $\boldsymbol{\Pi} = \lambda \boldsymbol{\Sigma} \mathbf{w}_{\text{mkt}}$, Idzorek Confidence Scaling, Portfolio Tilts | Python, `scipy.optimize`, Pandas, NumPy | [Engine & Notebook](./10_black_litterman_portfolio) |
 
 ---
 
@@ -34,7 +36,7 @@ Welcome to my quantitative finance and financial engineering research portfolio.
 * **Program:** CQF Final Project | Fitch Learning
 * **Focus:** End-to-end systematic trading platform combining cointegrated statistical arbitrage (pairs trading) with trend-following strategies.
 * **Core Innovation:** Employs genetic algorithm evolutionary computation (`deap`) across high-dimensional parameter spaces (lookback periods, entry/exit z-score triggers, trailing stops) to maximize risk-adjusted performance (Annualized Sharpe Ratio & APR).
-* **Live Execution:** Fully operational live trading execution client built on the Alpaca Markets API.
+* **Live Execution & Research:** Modular execution client built on Alpaca API + interactive walkthrough notebook with spread dynamics.
 
 $$\text{Spread}_t = P_t^{\text{Stock}} - \beta P_t^{\text{ETF}}, \qquad z_t = \frac{\text{Spread}_t - \mu}{\sigma}, \qquad \text{Sharpe} = \frac{\sqrt{252} \cdot (\mu_R - r_f)}{\sigma_R}$$
 
@@ -42,7 +44,7 @@ $$\text{Spread}_t = P_t^{\text{Stock}} - \beta P_t^{\text{ETF}}, \qquad z_t = \f
 
 ### 2. [Stochastic Volatility Modeling & Numerical Derivative Pricing](./02_stochastic_volatility_derivatives)
 * **Program:** MScFE 620 Derivative Pricing | WorldQuant University
-* **Focus:** Continuous-time stochastic volatility and discrete-time lattice valuation.
+* **Focus:** Continuous-time stochastic volatility, semi-analytical Fourier inversion, and discrete-time lattice valuation.
 * **Core Models:**
   - **Heston (1993) SDE System:**
     $$dS(t) = r S(t) dt + \sqrt{\nu(t)} S(t) dW_1(t)$$
@@ -137,7 +139,7 @@ $$\text{Spread}_t = P_t^{\text{Stock}} - \beta P_t^{\text{ETF}}, \qquad z_t = \f
 
 ## 🚀 Quickstart & Reproduction
 
-To clone and explore the notebooks and strategies locally:
+To clone and run any quantitative engine locally:
 
 ```bash
 # 1. Clone the repository
@@ -149,7 +151,18 @@ uv venv .venv
 source .venv/bin/activate   # On Windows: .venv\Scripts\activate
 uv pip install -r requirements.txt
 
-# 3. Launch JupyterLab / Notebook to inspect research
+# 3. Run any standalone production engine directly from CLI:
+uv run python 02_stochastic_volatility_derivatives/heston_pricing_engine.py
+uv run python 03_deep_learning_asset_allocation/multi_asset_lstm_engine.py
+uv run python 04_machine_learning_factor_models/factor_selection_engine.py
+uv run python 05_portfolio_optimization_and_kelly/kelly_rmt_optimizer.py
+uv run python 06_risk_management_regimes/regime_switching_engine.py
+uv run python 07_deep_pde_fbsde_derivative_pricing/fbsde_solver.py
+uv run python 08_credit_risk_cds_bootstrapping/cds_bootstrapping_engine.py
+uv run python 09_vecm_cointegration_trading/vecm_cointegration_engine.py
+uv run python 10_black_litterman_portfolio/black_litterman_engine.py
+
+# 4. Or launch JupyterLab to interactively explore notebooks and visual plots:
 uv run jupyter lab
 ```
 
