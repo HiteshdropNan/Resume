@@ -49,10 +49,21 @@ $$\arg\min_{S} \sum_{k=1}^K \sum_{\mathbf{x} \in S_k} \|\mathbf{x} - \boldsymbol
 ```text
 04_machine_learning_factor_models/
 ├── README.md                                # Methodological overview & theoretical foundations
+├── factor_selection_engine.py               # Standalone LASSO, PCA eigenportfolios & k-Means CLI engine
 ├── lasso_pca_kmeans_factor_analysis.ipynb   # Complete implementation of LASSO, PCA & k-Means
 ├── ml_feature_selection_validation.ipynb    # Advanced model validation & feature selection issues
 └── data/
     └── stock_returns.csv                    # Empirical equity return dataset
+```
+
+---
+
+## Verification & Execution
+
+To run the standalone machine learning factor investing engine from the terminal:
+
+```bash
+uv run python 04_machine_learning_factor_models/factor_selection_engine.py
 ```
 
 ---
