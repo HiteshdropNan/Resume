@@ -13,6 +13,45 @@ Every pillar in this portfolio is structured in **dual-format**: containing both
 
 ---
 
+## 🏛️ Quantitative Research Architecture Lifecycle
+
+The 10 research pillars span the full end-to-end institutional quantitative pipeline—from alpha discovery and non-linear predictive modeling to exotic pricing, systemic risk management, and optimal portfolio construction:
+
+```mermaid
+flowchart TD
+    subgraph S1["1. Alpha Generation & Statistical Arbitrage"]
+        P1["Pillar 01: Cointegration Pairs Trading & Genetic Algorithms"]
+        P9["Pillar 09: Multivariate VECM & Johansen Rank Testing"]
+    end
+
+    subgraph S2["2. Asset Pricing & Stochastic Calculus"]
+        P2["Pillar 02: Heston (1993) SDEs & Dynamic Delta Hedging"]
+        P7["Pillar 07: Deep FBSDE High-Dimensional PDE Solver"]
+    end
+
+    subgraph S3["3. Machine Learning & Predictive Modeling"]
+        P3["Pillar 03: Multi-Asset LSTM Dynamic Return Forecasting"]
+        P4["Pillar 04: LASSO Sparse Selection, PCA & k-Means Clustering"]
+    end
+
+    subgraph S4["4. Quantitative Risk & Econometrics"]
+        P6["Pillar 06: Markov Regime Switching & Commodity Tail Risk"]
+        P8["Pillar 08: Exact CDS Hazard Rate Bootstrapping & Copulas"]
+    end
+
+    subgraph S5["5. Capital Allocation & Portfolio Optimization"]
+        P5["Pillar 05: Optimal Kelly Sizing, Marchenko-Pastur RMT & HRP"]
+        P10["Pillar 10: Black-Litterman Bayesian Updating & Idzorek Tilts"]
+    end
+
+    S1 --> S3
+    S2 --> S4
+    S3 --> S5
+    S4 --> S5
+```
+
+---
+
 ## 🎯 Flagship Quantitative Projects Matrix
 
 | # | Pillar | Domain | Key Mathematical Models & Frameworks | Primary Tech Stack | Artifacts (CLI Engine & Notebook) |

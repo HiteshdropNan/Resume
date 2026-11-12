@@ -27,6 +27,11 @@ htmlcov/
 .venv/
 venv/
 
+# Temporary execution caches
+.tmp_*
+.tmp_mpl/
+.tmp_ipython/
+
 # Large binaries & Coursework archives
 CQF/
 zip/
