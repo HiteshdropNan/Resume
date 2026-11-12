@@ -47,13 +47,24 @@ $$\Gamma = \frac{\partial^2 V}{\partial S^2} \approx \frac{V(S + \Delta S) - 2V(
 
 ---
 
-## Notebooks
+## Structure & Artifacts
 
 ```text
 02_stochastic_volatility_derivatives/
 ├── README.md                              # Mathematical background & implementation notes
+├── heston_pricing_engine.py               # Standalone Heston SDE, Fourier pricer & hedging CLI engine
 ├── heston_stochastic_volatility.ipynb     # Heston SDE simulation, smile calibration & Greeks (Hitesh)
 └── derivative_pricing_trees_hedging.ipynb # Binomial/Trinomial trees & dynamic hedging engine
+```
+
+---
+
+## Verification & Execution
+
+To run the standalone Heston stochastic volatility engine from the terminal:
+
+```bash
+uv run python 02_stochastic_volatility_derivatives/heston_pricing_engine.py
 ```
 
 ---
