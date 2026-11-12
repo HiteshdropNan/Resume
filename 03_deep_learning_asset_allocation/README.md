@@ -36,13 +36,24 @@ h_t &= o_t * \tanh(C_t) \quad &&\text{(Hidden State Vector)}
 
 ---
 
-## Notebooks
+## Structure & Artifacts
 
 ```text
 03_deep_learning_asset_allocation/
-├── README.md                                # Architectural overview & performance summary
-├── multi_asset_lstm_allocation.ipynb        # Multi-Asset LSTM training & strategic allocation
+├── README.md                                 # Architectural overview & performance summary
+├── multi_asset_lstm_engine.py                # Standalone PyTorch Multi-Asset LSTM & Dynamic SAA CLI engine
+├── multi_asset_lstm_allocation.ipynb         # Multi-Asset LSTM training & strategic allocation
 └── deep_learning_single_asset_baseline.ipynb # Single-asset deep learning benchmark (AAPL)
+```
+
+---
+
+## Verification & Execution
+
+To train the PyTorch Multi-Asset LSTM and run the out-of-sample backtest from the terminal:
+
+```bash
+uv run python 03_deep_learning_asset_allocation/multi_asset_lstm_engine.py
 ```
 
 ---
