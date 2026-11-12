@@ -54,10 +54,11 @@ $$\text{Max Drawdown} = \max_{t} \left(\frac{\max_{\tau \le t} P_\tau - P_t}{\ma
 
 ```text
 01_algorithmic_trading_cqf/
-├── README.md                     # Project documentation & mathematical overview
-├── cqf_algorithmic_trading.py    # Backtesting engine & genetic algorithm optimizer
-├── mean_reversion_strategy.py    # Alpaca live trading implementation (Mean Reversion)
-└── trend_strategy.py             # Alpaca live trading implementation (Trend Following)
+├── README.md                              # Project documentation & mathematical overview
+├── cqf_algorithmic_trading.py             # Backtesting engine & genetic algorithm optimizer
+├── mean_reversion_strategy.py             # Alpaca live trading implementation (Mean Reversion)
+├── trend_strategy.py                      # Alpaca live trading implementation (Trend Following)
+└── algorithmic_trading_walkthrough.ipynb  # Interactive walkthrough notebook with spread & GA plots
 ```
 
 ---
