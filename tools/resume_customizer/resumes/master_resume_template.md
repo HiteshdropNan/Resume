@@ -6,7 +6,7 @@ LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/your-profil
 ---
 
 ## PROFESSIONAL SUMMARY
-Quantitative professional with deep expertise in statistical arbitrage, systematic trading strategy development, and risk management. Consultant at WorldQuant Brain with a proven track record developing and validating 400+ deployed quantitative alphas across multi-asset datasets. Pursuing an MSc in Financial Engineering at WorldQuant University with credentials in CQF and EPAT. Highly proficient in Python, Modern C++, order book market microstructure, Monte Carlo risk modeling (VaR, Expected Shortfall), and time-series forecasting.
+Quantitative professional with deep expertise in statistical arbitrage, systematic trading strategy development, and risk management. Consultant at WorldQuant Brain with a proven track record developing and validating 400+ deployed quantitative alphas across multi-asset datasets. Holds an MSc in Financial Engineering from WorldQuant University (Conferral January 2027) with credentials in CQF and EPAT. Highly proficient in Python, Modern C++, order book market microstructure, Monte Carlo risk modeling (VaR, Expected Shortfall), and time-series forecasting.
 
 ---
 
@@ -51,7 +51,7 @@ Designed and backtested execution-aware mean reversion and trend-following strat
 ---
 
 ## EDUCATION & CREDENTIALS
-- **MSc in Financial Engineering** | WorldQuant University *(Expected Jan 2027)*
+- **MSc in Financial Engineering** | WorldQuant University *(Jan 2027)*
 - **Certificate in Quantitative Finance (CQF)** | Fitch Learning *(Nov 2024)*
 - **Executive Program in Algorithmic Trading (EPAT)** | QuantInsti *(Mar 2023)*
 - **Bachelors in Business Administration (BBA)** | University Name *(Apr 2016)*

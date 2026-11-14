@@ -9,6 +9,7 @@ tools/resume_customizer/config/profile.yaml
 !tools/resume_customizer/config/profile.yaml.example
 tools/resume_customizer/resumes/tailored/
 tools/resume_customizer/resumes/master_resume_1page.*
+tools/resume_customizer/resumes/linkedin_easy_apply_resume.*
 tools/resume_customizer/data/*.db
 
 # Resumes and Personal PDFs (Keep local)
