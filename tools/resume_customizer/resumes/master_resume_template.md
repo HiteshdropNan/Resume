@@ -27,7 +27,7 @@ Quantitative professional with deep expertise in statistical arbitrage, systemat
 - Applied rigorous turnover control, slippage mitigation, and risk attribution to maintain robust performance across changing market regimes.
 
 ### **Commercial Venture** | Location
-*Co-Founder & CEO* | June 2017 – April 2025
+*Owner & Managing Director* | March 2020 – April 2025
 - Directed end-to-end commercial operations, retail supply chains, procurement logistics, and institutional client partnerships.
 - Built quantitative financial planning models, inventory demand forecasts, and credit risk assessments to preserve healthy working capital and cash flows.
 - Managed cross-functional teams and negotiated terms with regional suppliers to maximize operating margins and scale distribution channels.
