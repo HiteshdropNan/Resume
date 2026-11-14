@@ -13,8 +13,8 @@ Quantitative professional with deep expertise in statistical arbitrage, systemat
 ## TECHNICAL & QUANTITATIVE COMPETENCIES
 - **Languages:** Python, Modern C++ (C++20), PostgreSQL, SQL
 - **Quantitative & Risk Methods:** Statistical Arbitrage, Alpha Discovery, Market Microstructure (Order Book Imbalance, Liquidity, Decay), Monte Carlo Simulations (VaR, Expected Shortfall), Time-Series Forecasting, Portfolio Optimization
+- **High-Performance C++ & Native Interop:** nanobind (Python/C++20 zero-copy ndarray bindings), Zero-Allocation Limit Order Book (LOB), Sub-Microsecond Pre-Trade Risk Gate, Parallel Monte Carlo (std::jthread), SIMD / AVX2, CMake, Git, Linux
 - **Libraries & Tools:** NumPy, pandas, scikit-learn, PyTorch, Backtrader, TA-Lib, Interactive Brokers API, Matplotlib, Plotly
-- **Systems & Infrastructure:** Modern C++ (templates, constexpr), low-latency multithreading (std::atomic, std::thread), Boost.Asio, performance profiling (perf), Git, Linux
 
 ---
 
@@ -35,6 +35,9 @@ Quantitative professional with deep expertise in statistical arbitrage, systemat
 ---
 
 ## SELECTED PROJECTS
+
+### **High-Performance C++20 & nanobind Quantitative Execution Engine**
+Engineered an ultra-fast trading execution kernel in Modern C++20 featuring a zero-allocation array grid Limit Order Book (LOB), sub-microsecond pre-trade hard risk safeguard gate, and parallelized Monte Carlo bootstrap engine (`std::jthread`). Bound native C++ kernels directly to Python pipelines via `nanobind` with zero-copy NumPy `ndarray` buffers and AVX2 SIMD optimizations.
 
 ### **Monte Carlo Simulations for VaR & Expected Shortfall**
 Engineered Monte Carlo simulation engines in Python to model correlated asset returns, compute Value-at-Risk (VaR) and Expected Shortfall (CVaR) under fat-tailed distributions, and quantify tail-risk exposure for multi-asset portfolios.
