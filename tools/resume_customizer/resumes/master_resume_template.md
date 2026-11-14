@@ -27,10 +27,10 @@ Quantitative professional with deep expertise in statistical arbitrage, systemat
 - Applied rigorous turnover control, slippage mitigation, and risk attribution to maintain robust performance across changing market regimes.
 
 ### **Commercial Venture** | Location
-*Owner & Managing Director* | March 2020 – April 2025
-- Directed end-to-end commercial operations, retail supply chains, procurement logistics, and institutional client partnerships.
-- Built quantitative financial planning models, inventory demand forecasts, and credit risk assessments to preserve healthy working capital and cash flows.
-- Managed cross-functional teams and negotiated terms with regional suppliers to maximize operating margins and scale distribution channels.
+*Owner & Managing Director (B2B Wholesale & Distribution)* | March 2020 – April 2025
+- Directed end-to-end commercial operations for a B2B wholesale distribution business, managing warehousing, bulk fulfillment, and supply logistics across a regional merchant network.
+- Negotiated bulk purchase agreements and volume pricing with manufacturers, actively managing seasonal inventory cycles to prevent dead stock and protect operating margins.
+- Oversaw working capital, vendor payables, and commercial trade credit; evaluated merchant payment reliability and established prudent credit terms to ensure healthy cash flow and minimize bad debts.
 
 ---
 
