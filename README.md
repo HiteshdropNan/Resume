@@ -172,7 +172,7 @@ $$\text{Spread}_t = P_t^{\text{Stock}} - \beta P_t^{\text{ETF}}, \qquad z_t = \f
 
 * **Quantitative Methods:** Statistical Arbitrage, Alpha Generation, Market Microstructure (Order Book Dynamics, Imbalance, Decay), Stochastic Calculus (Heston, Ito's Lemma), Forward-Backward SDEs (FBSDE), Deep PDE Solvers, Credit Default Swap (CDS) Bootstrapping, Gaussian Copula, Johansen Cointegration, Vector Error Correction Models (VECM), Black-Litterman Bayesian Updating, Random Matrix Theory (Marchenko-Pastur Denoising), Hierarchical Risk Parity (HRP), Kelly Criterion, Monte Carlo Simulation, Value-at-Risk (VaR, CVaR), DCC-GARCH.
 * **Programming Languages:** Python (NumPy, SciPy, pandas, statsmodels, PyTorch, scikit-learn, DEAP, arch, openpyxl, xlrd), Modern C++ (C++20, templates, multithreading, latency considerations), SQL / PostgreSQL.
-* **Tools & Frameworks:** Jupyter, Docker, Git, Linux, Alpaca API, Backtrader.
+* **Tools & Frameworks:** Jupyter, Git, Linux, Alpaca API, Backtrader.
 
 ---
 

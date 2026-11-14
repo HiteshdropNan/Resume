@@ -14,7 +14,7 @@ Quantitative professional with deep expertise in statistical arbitrage, systemat
 - **Languages:** Python, Modern C++ (C++20), PostgreSQL, SQL
 - **Quantitative & Risk Methods:** Statistical Arbitrage, Alpha Discovery, Market Microstructure (Order Book Imbalance, Liquidity, Decay), Monte Carlo Simulations (VaR, Expected Shortfall), Time-Series Forecasting, Portfolio Optimization
 - **Libraries & Tools:** NumPy, pandas, scikit-learn, PyTorch, Backtrader, TA-Lib, Interactive Brokers API, Matplotlib, Plotly
-- **Systems & Infrastructure:** Modern C++ (templates, constexpr), low-latency multithreading (std::atomic, std::thread), Boost.Asio, performance profiling (perf), Docker, Redis, Git
+- **Systems & Infrastructure:** Modern C++ (templates, constexpr), low-latency multithreading (std::atomic, std::thread), Boost.Asio, performance profiling (perf), Git, Linux
 
 ---
 

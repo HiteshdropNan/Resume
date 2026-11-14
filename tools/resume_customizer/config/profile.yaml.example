@@ -68,8 +68,6 @@ technical_skills:
     - "Plotly"
     - "Prometheus"
     - "Grafana"
-    - "Redis"
-    - "Docker"
     - "MLflow"
     - "TA-Lib"
     - "Interactive Brokers API"

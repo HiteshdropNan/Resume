@@ -121,9 +121,9 @@ class ResumeTailorAgent:
         lib_tools = list(base_skills.get("libraries_and_tools", []))
         if analysis.get("has_ml"):
             # Move ML up
-            lib_tools = ["PyTorch", "scikit-learn", "NumPy", "pandas", "Backtrader", "Matplotlib", "Plotly", "Redis", "Docker", "MLflow", "Interactive Brokers API"]
+            lib_tools = ["PyTorch", "scikit-learn", "NumPy", "pandas", "Backtrader", "Matplotlib", "Plotly", "MLflow", "Interactive Brokers API"]
         elif analysis.get("has_mft"):
-            lib_tools = ["Backtrader", "Interactive Brokers API", "TA-Lib", "NumPy", "pandas", "Redis", "Docker", "Prometheus", "Grafana", "PyTorch"]
+            lib_tools = ["Backtrader", "Interactive Brokers API", "TA-Lib", "NumPy", "pandas", "Prometheus", "Grafana", "PyTorch"]
 
         quant_methods = list(base_skills.get("quantitative_methods", []))
         if analysis.get("archetype") == "QUANT_TRADER_MFT":
